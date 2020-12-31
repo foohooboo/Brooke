@@ -3,60 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brooke</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <header>
-            <h1>Hello Brooke</h1>
-        </header>
-    </div>
-    <div>
-        <h2 class='intructions'>Here you will find a series of videos, which will contain clues for a scavenger hunt. You will be presented with a question and multiple choices. Select carefully, or else....</h2>
-    </div>
-    <div class='video'>
-        <iframe width="560" height="315" src="./videos/bowling.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </div>
-    <div>
-        <div class='questions'>
-            <br>
-            <br>
-            <h3>Here is your Question: Some Question here</h3>
-        </div>
-
-
-        <!--
-            Here you will notice the id's are 11, 12, 13, 14 respectively for each question. This represents question 1, answer 1. Question 1, answer 2. question 1, answer 3. question 1, answer 4.
-        -->
-        <div id='block-11' class='questions'>
-            <label for='option-11'>
-            <input type='radio' name='option' value='6' id='option-11' class='radio' />
-            ANSWER 1</label>
-            <span id='result-11'></span>
-        </div>
-        <div id='block-12' class='questions'>
-            <label for='option-12'>
-            <input type='radio' name='option' value='6' id='option-12' class='radio' />
-            ANSWER 2</label>
-            <span id='result-12'></span>
-        </div>
-        <div id='block-13' class='questions'>
-            <label for='option-13'>
-            <input type='radio' name='option' value='6' id='option-13' class='radio' />
-            ANSWER 3</label>
-            <span id='result-13'></span>
-        </div>
-        <div id='block-14' class='questions'>
-            <label for='option-14'>
-            <input type='radio' name='option' value='6' id='option-14' class='radio' />
-            ANSWER 4</label>
-            <span id='result-14'></span>
+    <div class='centered'>
+         <div>
+            <label for="codeInput">Enter code here:</label>
+            <input type="text" id="codeInput" name="codeInput"><br><br>
         </div>
         <div class='questions'>
-            <button type='button' onclick='displayAnswer1()' class='submit_button'>Submit</button>
+            <button type='button' onclick='checkCode()' class='submit_button'>Submit</button>
         </div>
     </div>
-    <a id='showanswer1'></a>
     <script src="script.js"></script>
 </body>
 </html>
