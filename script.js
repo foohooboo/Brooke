@@ -114,11 +114,11 @@ function checkCode() {
       window.location.replace("./pages/copperton.html");  
   } else if (codeValue == 2224) { 
       window.location.replace("./pages/bowling.html"); 
-  } else if (codeValue == 0220) { 
+  } else if (codeValue == 1234) { 
       window.location.replace("./pages/temple.html"); 
   } else if (codeValue == 0827) {   
     window.location.replace("./pages/pancakes.html");
-  } else if (codeValue == 0306) {   
+  } else if (codeValue == 1316) {   
       window.location.replace("./pages/onions.html");  
   } else {
       window.alert("wrong code: try again");
