@@ -27,7 +27,7 @@ function displayAnswer1() {
 
 //this is the function that will be called on a correct answer selection. It will just display a link at the bottom of the screen. You can use this link to take her to the next URL of the next question or something
 function proceed() {
-  window.alert('some new address');
+  window.alert('some new address goes here');
 }
 
 function checkCode() {
