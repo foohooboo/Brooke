@@ -5,6 +5,7 @@ const addresses = [
   {name: "bowling", address: ""},
   {name: "copperton", address: "8700 w 10305 s, Copperton"},
   {name: "pancakes", address: "Look at your stove"},
+  {name: "onions", address: "Your chariot awaits!"},
 ]
 
 // const simpleAddresses = {
@@ -113,8 +114,12 @@ function checkCode() {
       window.location.replace("./pages/copperton.html");  
   } else if (codeValue == 2224) { 
       window.location.replace("./pages/bowling.html"); 
-  } else if (codeValue == 0306) { 
+  } else if (codeValue == 0220) { 
       window.location.replace("./pages/temple.html"); 
+  } else if (codeValue == 0827) {   
+    window.location.replace("./pages/pancakes.html");
+  } else if (codeValue == 0306) {   
+      window.location.replace("./pages/onions.html");  
   } else {
       window.alert("wrong code: try again");
   }
