@@ -86,7 +86,7 @@ function proceed() {
 
 function checkCodeTruck() {
   var codeValue = document.getElementById('codeInput').value;
-  if (codeValue == 1111) { //TODO: Change the code
+  if (codeValue == 7567) { //TODO: Change the code
       window.location.replace("./pages/truck.html"); 
   } else {
       window.alert("wrong code: try again");
@@ -95,7 +95,7 @@ function checkCodeTruck() {
 
 function checkCodeOval() {
   var codeValue = document.getElementById('codeInput').value;
-  if (codeValue == 1111) { //TODO: Change the code
+  if (codeValue == 1409) { //TODO: Change the code
       window.location.replace("./pages/oval.html"); 
   } else {
       window.alert("wrong code: try again");
@@ -104,7 +104,7 @@ function checkCodeOval() {
 
 function checkCodeCopperton() {
   var codeValue = document.getElementById('codeInput').value;
-  if (codeValue == 1111) { //TODO: Change the code
+  if (codeValue == 5555) { //TODO: Change the code
       window.location.replace("./pages/copperton.html"); 
   } else {
       window.alert("wrong code: try again");
@@ -113,7 +113,7 @@ function checkCodeCopperton() {
 
 function checkCodeBowling() {
   var codeValue = document.getElementById('codeInput').value;
-  if (codeValue == 1111) { //TODO: Change the code
+  if (codeValue == 2224) { //TODO: Change the code
       window.location.replace("./pages/bowling.html"); 
   } else {
       window.alert("wrong code: try again");
@@ -122,7 +122,7 @@ function checkCodeBowling() {
 
 function checkCodeTemple() {
   var codeValue = document.getElementById('codeInput').value;
-  if (codeValue == 1111) { //TODO: Change the code
+  if (codeValue == 0306) { //TODO: Change the code
       window.location.replace("./pages/temple.html"); 
   } else {
       window.alert("wrong code: try again");
