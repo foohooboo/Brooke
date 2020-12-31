@@ -2,7 +2,7 @@ const addresses = [
   {name: "truck", address: "Look at the front bumper of your car."},
   {name: "temple", address: "11022 s 4000 w, South Jordan"},
   {name: "oval", address: "5662 s Cougar Lane, Kearns"},
-  {name: "bowling", address: ""},
+  {name: "bowling", address: "7141 s Woodgreen rd, West Jordan"},
   {name: "copperton", address: "8700 w 10305 s, Copperton"},
   {name: "pancakes", address: "Look at your stove"},
   {name: "onions", address: "Your chariot awaits!"},
