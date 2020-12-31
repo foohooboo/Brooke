@@ -27,19 +27,14 @@ function displayAnswer1() {
 
 //this is the function that will be called on a correct answer selection. It will just display a link at the bottom of the screen. You can use this link to take her to the next URL of the next question or something
 function proceed() {
-  var a = document.createElement('a');
-  var link = document.createTextNode("This is a link");
-  a.appendChild(link);
-  a.title = "This is a Link";
-  a.href = "https://www.geeksforgeeks.org";
-  document.body.appendChild(a);
+  window.alert('some new address');
 }
 
 function checkCode() {
-var codeValue = document.getElementById('codeInput').value;
-if (codeValue == 1111) {
-    window.alert("correct!");
-} else {
-    window.alert("try again");
-}
+  var codeValue = document.getElementById('codeInput').value;
+  if (codeValue == 1111) {
+      window.location.replace("http://www.w3schools.com"); //TODO: change this URL to the correct html page
+  } else {
+      window.alert("wrong code: try again");
+  }
 }
