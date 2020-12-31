@@ -33,7 +33,7 @@ function proceed() {
 function checkCode() {
   var codeValue = document.getElementById('codeInput').value;
   if (codeValue == 1111) {
-      window.location.replace("http://www.w3schools.com"); //TODO: change this URL to the correct html page
+      window.location.replace("./truck.html"); //TODO: change this URL to the correct html page
   } else {
       window.alert("wrong code: try again");
   }
