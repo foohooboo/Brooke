@@ -1,5 +1,3 @@
-//here is an example function to display the correct results. You can change which answer is correct by simply changing what the output of each selection is. This is for question 1. You will need to copy this funcion for each additional question. I know....messy. But I copied it from the internets and didnt have time to make it actually good.
-
 function displayAnswer1() {
   if (document.getElementById('option-11').checked) {
     document.getElementById('result-11').style.color = 'limegreen'
@@ -20,16 +18,112 @@ function displayAnswer1() {
   }
 }
 
+function displayAnswer2() {
+  if (document.getElementById('option-11').checked) {
+    document.getElementById('result-11').style.color = 'red'
+    document.getElementById('result-11').innerHTML = 'Incorrect!'
+  }
+  if (document.getElementById('option-12').checked) {
+    document.getElementById('result-12').style.color = 'limegreen'
+    document.getElementById('result-12').innerHTML = 'Correct!'
+    proceed()
+  }
+  if (document.getElementById('option-13').checked) {
+    document.getElementById('result-13').style.color = 'red'
+    document.getElementById('result-13').innerHTML = 'Incorrect!'
+  }
+  if (document.getElementById('option-14').checked) {
+    document.getElementById('result-14').style.color = 'red'
+    document.getElementById('result-14').innerHTML = 'Incorrect!'
+  }
+}
+
+function displayAnswer3() {
+  if (document.getElementById('option-11').checked) {
+    document.getElementById('result-11').style.color = 'red'
+    document.getElementById('result-11').innerHTML = 'Incorrect!'
+  }
+  if (document.getElementById('option-12').checked) {
+    document.getElementById('result-12').style.color = 'red'
+    document.getElementById('result-12').innerHTML = 'Incorrect!'
+  }
+  if (document.getElementById('option-13').checked) {
+    document.getElementById('result-13').style.color = 'limegreen'
+    document.getElementById('result-13').innerHTML = 'Correct!'
+    proceed()
+  }
+  if (document.getElementById('option-14').checked) {
+    document.getElementById('result-14').style.color = 'red'
+    document.getElementById('result-14').innerHTML = 'Incorrect!'
+  }
+}
+
+function displayAnswer4() {
+  if (document.getElementById('option-11').checked) {
+    document.getElementById('result-11').style.color = 'red'
+    document.getElementById('result-11').innerHTML = 'Incorrect!'
+  }
+  if (document.getElementById('option-12').checked) {
+    document.getElementById('result-12').style.color = 'red'
+    document.getElementById('result-12').innerHTML = 'Incorrect!'
+  }
+  if (document.getElementById('option-13').checked) {
+    document.getElementById('result-13').style.color = 'red'
+    document.getElementById('result-13').innerHTML = 'Incorrect!'
+  }
+  if (document.getElementById('option-14').checked) {
+    document.getElementById('result-14').style.color = 'limegreen'
+    document.getElementById('result-14').innerHTML = 'Correct!'
+    proceed()
+  }
+}
+
 
 //this is the function that will be called on a correct answer selection. It will just display a link at the bottom of the screen. You can use this link to take her to the next URL of the next question or something
 function proceed() {
   window.alert('some new address goes here');
 }
 
-function checkCode() {
+function checkCodeTruck() {
   var codeValue = document.getElementById('codeInput').value;
-  if (codeValue == 1111) {
-      window.location.replace("./pages/truck.html"); //TODO: change this URL to the correct html page
+  if (codeValue == 1111) { //TODO: Change the code
+      window.location.replace("./pages/truck.html"); 
+  } else {
+      window.alert("wrong code: try again");
+  }
+}
+
+function checkCodeOval() {
+  var codeValue = document.getElementById('codeInput').value;
+  if (codeValue == 1111) { //TODO: Change the code
+      window.location.replace("./pages/oval.html"); 
+  } else {
+      window.alert("wrong code: try again");
+  }
+}
+
+function checkCodeCopperton() {
+  var codeValue = document.getElementById('codeInput').value;
+  if (codeValue == 1111) { //TODO: Change the code
+      window.location.replace("./pages/copperton.html"); 
+  } else {
+      window.alert("wrong code: try again");
+  }
+}
+
+function checkCodeBowling() {
+  var codeValue = document.getElementById('codeInput').value;
+  if (codeValue == 1111) { //TODO: Change the code
+      window.location.replace("./pages/bowling.html"); 
+  } else {
+      window.alert("wrong code: try again");
+  }
+}
+
+function checkCodeTemple() {
+  var codeValue = document.getElementById('codeInput').value;
+  if (codeValue == 1111) { //TODO: Change the code
+      window.location.replace("./pages/temple.html"); 
   } else {
       window.alert("wrong code: try again");
   }
