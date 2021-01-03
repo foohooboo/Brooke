@@ -8,15 +8,6 @@ const addresses = [
   {name: "onions", address: "Your chariot awaits!"},
 ]
 
-// const simpleAddresses = {
-//   truck: "Look at the front bumper of your car.",
-//   temple: "11022 s 4000 w, South Jordan",
-//   oval: "5662 s Cougar Lane, Kearns",
-//   bowling: "",
-//   copperton: "8700 w 10305 s, Copperton",
-//   pancakes: "Look at your stove",
-// }
-
 function displayAnswer1(pageName) {
   if (document.getElementById('option-11').checked) {
     document.getElementById('result-11').style.color = 'limegreen'
@@ -120,6 +111,8 @@ function checkCode() {
     window.location.replace("./pages/pancakes.html");
   } else if (codeValue == 1316) {   
       window.location.replace("./pages/onions.html");  
+  } else if (codeValue == 1111) {
+      window.location.replace("./pages/clueTemplate.html");
   } else {
       window.alert("wrong code: try again");
   }

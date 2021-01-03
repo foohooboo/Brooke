@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brooke</title>
     <link rel="stylesheet" href="../style.css">
+    <script src=""></script>
 </head>
 <body>
     <div>
@@ -16,12 +17,12 @@
         <h2 class='intructions'>Here you will find a series of videos, which will contain clues for a scavenger hunt. You will be presented with a question and multiple choices. Select carefully, or else....</h2>
     </div>
     <div class='video'>
-        <iframe width="560" height="315" src="../videos/copperton.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </div>
+        <iframe width="560" height="315" src="../videos/bowling.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </div>
     <div>
         <div class='questions'>
             <br>
             <br>
-            <h3>Where is the park at which we ate after you picked me up from the airport?</h3>
+            <h3 id="questionText">QUESTION GOES HERE</h3>
         </div>
 
 
@@ -30,30 +31,30 @@
         -->
         <div id='block-11' class='questions'>
             <label for='option-11'>
-            <input type='radio' name='option' value='6' id='option-11' class='radio' />
-            West Jordan City</label>
+            <input id='answer1' type='radio' name='option' value='6' id='option-11' class='radio' />
+            ANSWER 1</label>
             <span id='result-11'></span>
         </div>
         <div id='block-12' class='questions'>
             <label for='option-12'>
-            <input type='radio' name='option' value='6' id='option-12' class='radio' />
-            Copperton</label>
+            <input id='answer2' type='radio' name='option' value='6' id='option-12' class='radio' />
+            ANSWER 2</label>
             <span id='result-12'></span>
         </div>
         <div id='block-13' class='questions'>
             <label for='option-13'>
-            <input type='radio' name='option' value='6' id='option-13' class='radio' />
-            The Whisper Dome</label>
+            <input id='answer3' type='radio' name='option' value='6' id='option-13' class='radio' />
+            ANSWER 3</label>
             <span id='result-13'></span>
         </div>
         <div id='block-14' class='questions'>
             <label for='option-14'>
-            <input type='radio' name='option' value='6' id='option-14' class='radio' />
-            Geonisian Gladiatorial Arena</label>
+            <input id='answer4' type='radio' name='option' value='6' id='option-14' class='radio' />
+            ANSWER 4</label>
             <span id='result-14'></span>
         </div>
         <div class='questions'>
-            <button type='button' onclick='displayAnswer2("copperton")' class='submit_button'>Submit</button>
+            <button type='button' onclick='displayAnswer4("bowling")' class='submit_button'>Submit</button>
         </div>
     </div>
     <script src="../script.js"></script>
